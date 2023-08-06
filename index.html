@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>messenger</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img src="Images/logo.webp" alt="messengerlogo" class="imgLogo" />
+      </div>
+      <div class="contentList">
+        <ul class="listContainer">
+          <li>Rooms</li>
+          <li>Features</li>
+          <li>Privacy & Safety</li>
+          <li>For Developer</li>
+        </ul>
+      </div>
+      <div class="lineContainer">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <div class="backgroundContainer">
+        <ul class="list-all">
+          <li class="li-a">Home</li>
+          <li class="li-a">AboutUs</li>
+          <li class="li-a">Contanct Us</li>
+          <li class="li-a">Reviews</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mainContainer">
+      <div class="bodyContainter">
+        <div class="leftContainner">
+          <div class="inner-left-containner">
+            <h1>Be Together, Whenever.</h1>
+            <span
+              >A simple way to text, video chat and plan things all in one
+              place.</span
+            >
+            <input
+              type="email"
+              placeholder="Email or PhoneNumber"
+              class="e-mail i-put"
+            />
+            <input
+              type="password"
+              placeholder="Enter your password"
+              class="password-input i-put"
+            />
+            <button class="a-button" onclick="signIn()">SignIn</button>
+            <div class="checkboxContiner">
+              <input
+                class="checkBox-input"
+                type="checkbox"
+                name="Keep SignIn"
+              />
+              <span id="keep-singin">Keep SignIn</span>
+            </div>
+            <button type="button" onclick="forgetPassword()" class="a-button">
+              Forgot password
+            </button>
+            <img
+              src="Images/app-store-and-google-play.jpg"
+              alt="app-store-and-google-play"
+              srcset=""
+              class="store-img"
+            />
+          </div>
+        </div>
+
+        <div class="rightContainner">
+          <img
+            src="Images/Phone.png"
+            alt="image-phone"
+            class="image-phone"
+            srcset=""
+          />
+        </div>
+      </div>
+      <div class="childsContainer">
+        <h1>So many ways to connect with all your friends</h1>
+        <div class="childContainer">
+          <div class="left-child a-childs">
+            <img
+              src="Images/image00.jpg"
+              alt="left-footer-image"
+              class="left-footer-image a-images"
+            />
+            <h2>Hang out and have fun together</h2>
+            <p>
+              See who's online, send messages and reactions, and group video
+              chat together. It's the closest to hanging out
+            </p>
+          </div>
+          <div class="mid-child a-childs">
+            <img
+              src="Images/image01.jpg"
+              alt="mid-footer-image"
+              class="mid-footer-image a-images"
+            />
+            <h2>Get the group started</h2>
+            <p>
+              Easily find your friends and get the group started, even without
+              their phone numbers.
+            </p>
+          </div>
+          <div class="right-child a-childs">
+            <img
+              src="Images/image02.jpg"
+              alt=""
+              class="rght-footer-image a-images"
+            />
+            <h2>Say everything better</h2>
+            <p>
+              Make them laugh with stickers, GIFs and camera filters. Plus,
+              choose available custom colors to make Messenger entirely yours
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">So many ways to connect with all your friends</div>
+    <script src="script.js"></script>
+  </body>
+</html>
